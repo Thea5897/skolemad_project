@@ -68,9 +68,9 @@ body {
 
 header {
   position: static;
-  top: 0;
   width: 100%;
   height: 16rem;
+  margin-top: 89px;
 
   background-color: var(--primary-dark-color);
   background: rgb(29, 120, 27);
@@ -94,6 +94,10 @@ header {
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.second_section {
+  text-align: center;
 }
 
 .third_section {
@@ -135,6 +139,58 @@ footer div {
   padding-top: 2rem;
 }
 
+/* LOGIN FORM */
+form {
+  border: 3px solid #f1f1f1;
+  margin: 2rem;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: var(--primary-dark-color);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 8rem;
+  box-shadow: 2px 2px 6px #888888;
+  font-family: Libre Baskerville;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #e76f2c;
+}
+
+a {
+  font-family: Righteous;
+}
+
+a:hover {
+  background-color: #e76f2c;
+}
+
+body > nav:nth-child(1) {
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  padding-block: 1px;
+  width: 100%;
+}
+
 /* BURGERMENU */
 .hidden {
   display: none;
@@ -171,12 +227,13 @@ footer div {
   position: fixed;
   background-color: white;
   width: 100vw;
-  height: 18rem;
+  height: 100vh;
 }
 
 #menu li {
   display: flex;
   justify-content: center;
+  margin: 0.5rem;
 }
 
 #logo_menu {
@@ -206,11 +263,12 @@ footer div {
     display: flex;
     justify-content: space-evenly;
     flex-flow: row;
-    background-color: transparent;
-    margin-top: 30px;
+    background-color: white;
+    /* margin-top: 30px; */
     font-family: Righteous;
     color: #609511;
     font-size: 2.3rem;
+    height: 7vh;
   }
 
   #logo_menu {
@@ -222,5 +280,13 @@ footer div {
   #logo_burger {
     display: none;
   }
+
+  #menu_support {
+    margin: 0rem;
+  }
   /*BURGERMENU SLUT*/
+
+  header {
+    margin-top: 6rem;
+  }
 }
