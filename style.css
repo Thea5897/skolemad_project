@@ -1,1 +1,91 @@
+<<<<<<< HEAD
 
+=======
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+}
+
+:root {
+  --primary-color: #77b815;
+  --primary-dark-color: #609511;
+  --hover-color: #e76f2c;
+  --font-primary-color: black;
+  --font-secondary-color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: static;
+  top: 0;
+  width: 100%;
+  height: 20rem;
+
+  background-color: var(--primary-dark-color);
+}
+
+h1 {
+  color: var(--font-secondary-color);
+  text-align: center;
+  padding-top: 9rem;
+}
+
+.first_section {
+  padding-top: 2rem;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.third_section {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.fourth_secition {
+  text-align: center;
+}
+
+img {
+  width: 5rem;
+  height: 4rem;
+}
+
+#icon {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  position: static;
+  background-color: var(--primary-dark-color);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 2rem;
+}
+footer p {
+  color: var(--font-secondary-color);
+  text-align: center;
+}
+footer div {
+  padding: 1rem;
+}
+>>>>>>> 716c97358a6eb5f011c40abcd2f7a149dd985b23
