@@ -41,7 +41,9 @@ header {
 h1 {
   color: var(--font-secondary-color);
   text-align: center;
-  padding-top: 9rem;
+  padding-top: 3.5rem;
+  font-family: Righteous;
+  font-size: 4.2rem;
 }
 
 .first_section {
@@ -57,10 +59,14 @@ h1 {
   padding-right: 1rem;
 }
 
-.fourth_secition p {
+.fourth_section {
   text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-
+#content {
+  padding-top: 2rem;
+}
 img {
   width: 5rem;
   height: 4rem;
