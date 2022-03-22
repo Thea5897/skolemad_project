@@ -122,14 +122,40 @@ footer div {
   opacity: 0;
 }
 
+.menu_support {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
 #menuknap {
-  display: inline-block;
+  display: flex;
+  place-self: right;
+  justify-content: right;
+  color: #609511;
+  font-size: 2.3rem;
 }
 
 #menu {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
   transition: transform 0.3s;
   transform-origin: top left;
+  font-family: Righteous;
+  color: #609511;
+  font-size: 2.3rem;
+}
+
+#logo_menu {
+  display: none;
+}
+
+#logo_burger {
+  display: inline;
+  height: 8vh;
+  width: 3rem;
 }
 
 @media only screen and (min-width: 700px) {
@@ -157,6 +183,7 @@ footer div {
   }
 
   #logo_menu {
+    display: block;
     height: 8vh;
     width: 4rem;
   }
