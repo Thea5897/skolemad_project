@@ -154,8 +154,8 @@ footer div {
 
 #logo_burger {
   display: inline;
-  height: 8vh;
-  width: 3rem;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 @media only screen and (min-width: 700px) {
