@@ -58,6 +58,7 @@ p {
   font-size: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 1rem;
 }
 
 body {
@@ -118,6 +119,12 @@ footer p {
 }
 footer div {
   padding: 1rem;
+}
+
+.section_1,
+.section_2,
+.section_3 {
+  padding-top: 2rem;
 }
 
 /* BURGERMENU */
