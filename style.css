@@ -30,28 +30,34 @@ h1 {
   padding-top: 3.5rem;
   font-family: Righteous;
   font-size: 4.2rem;
+  padding-left: 1rem;
 }
 
 h2 {
   color: var(--font-primary-color);
   font-family: Righteous;
   font-size: 3.1rem;
+  padding-left: 1rem;
 }
 
 h3 {
   color: var(--font-primary-color);
   font-family: Righteous;
   font-size: 2.3rem;
+  padding-left: 1rem;
 }
 h4 {
   color: var(--font-primary-color);
   font-family: Libre Baskerville;
   font-size: 1.3rem;
+  padding-left: 1rem;
 }
 p {
   color: var(--font-primary-color);
   font-family: Libre Baskerville;
   font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 body {
