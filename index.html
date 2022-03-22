@@ -20,26 +20,30 @@
     <title>SkoleMad.dk</title>
   </head>
   <body>
+    <nav>
+        <div class="menu_support">
+            <a href="index.html"
+            ><img src="img/Logo.png" alt="logo" id="logo_burger"
+          /></a>
+          <div id="menuknap">☰</div>
+        </div>
+        
+        <ul id="menu" class="hidden">
+          <li><a href="index.html">Bestil</a></li>
+          <li><a href="#second_section">Menuen</a></li>
+          <li>
+            <a href="index.html"
+              ><img src="img/Logo.png" alt="logo" id="logo_menu"
+            /></a>
+          </li>
+          <li><a href="#third_section">Priser</a></li>
+          <li><a href="kompetencer.html">Køkkenliste</a></li>
+        </ul>
+      </nav>
     <header>
       <h1>Velkommen til SkoleMad.dk</h1>
     </header>
-    <nav>
-      <div class="menu_support">
-        <img src="img/Logo.png" alt="logo" id="logo_burger" />
-        <div id="menuknap">☰</div>
-      </div>
-      <ul id="menu" class="hidden">
-        <li><a href="index.html">Profil</a></li>
-        <li><a href="#second_section">Menu</a></li>
-        <li>
-          <a href="projekter.html"
-            ><img src="img/Logo.png" alt="logo" id="logo_menu"
-          /></a>
-        </li>
-        <li><a href="#third_section">Bestil</a></li>
-        <li><a href="kompetencer.html">Log ud</a></li>
-      </ul>
-    </nav>
+    
 
     <section class="first_section">
       <p>
@@ -49,7 +53,23 @@
       </p>
     </section>
 
-    <section class="second_section"></section>
+    <section class="second_section">
+        <form>
+      
+            <div class="container">
+              <label><b>Brugernavn</b></label>
+              <input type="text" placeholder="Username...">
+          
+              <label for="psw"><b>Kodeord</b></label>
+              <input type="password" placeholder="Password...">
+          
+             <button href="landing_page.html">Login!</button>
+              <label>
+            </div>
+          </form> 
+    </section>
+
+
 
     <section class="third_section">
       <div id="content">
@@ -63,6 +83,7 @@
         </p>
         <button>Læs mere her</button>
       </div>
+
       <div id="content">
         <div id="icon">
           <img src="img/leverandør.png" alt="Leverandør" />
