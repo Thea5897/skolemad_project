@@ -85,3 +85,52 @@ footer p {
 footer div {
   padding: 1rem;
 }
+
+/* BURGERMENU */
+.hidden {
+  display: none;
+  /*transform:scale(0);*/
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+@media only screen and (min-width: 700px) {
+  #menuknap {
+    display: none;
+  }
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline;
+  }
+
+  #menu {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    background-color: transparent;
+    margin-top: 30px;
+    font-family: Righteous;
+    color: #609511;
+    font-size: 2.3rem;
+  }
+
+  #logo_menu {
+    height: 8vh;
+    width: 4rem;
+  }
+  /*BURGERMENU SLUT*/
+}
