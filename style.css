@@ -180,7 +180,7 @@ a {
 }
 
 a:hover {
-  background-color: #e76f2c;
+  color: #e76f2c;
 }
 
 body > nav:nth-child(1) {
