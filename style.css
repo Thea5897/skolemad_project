@@ -135,6 +135,16 @@ footer div {
   padding: 1rem;
 }
 
+.section_one,
+.section_two {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.section_two h3 {
+  color: var(--primary-dark-color);
+}
+
 .section_1,
 .section_2,
 .section_3 {
@@ -323,5 +333,59 @@ hr {
 
   header {
     margin-top: 6rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .first_section,
+  .third_section {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .second_section {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .fourth_section {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .first_section {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .second_section {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .third_section {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .fourth_section {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
 }
