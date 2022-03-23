@@ -41,15 +41,17 @@ h2 {
 }
 
 h3 {
-  color: var(--font-primary-color);
+  color: var(--primary-color);
   font-family: Righteous;
   font-size: 2.3rem;
   padding-left: 1rem;
 }
+
 h4 {
   color: var(--font-primary-color);
   font-family: Libre Baskerville;
   font-size: 1.3rem;
+  font-weight: 800;
   padding-left: 1rem;
 }
 p {
@@ -244,6 +246,39 @@ body > nav:nth-child(1) {
   display: inline;
   height: 3.5rem;
   width: 3.5rem;
+}
+
+/* Landingpage style */
+
+.lp_hero {
+  position: static;
+  margin-top: 89px;
+  text-align: center;
+}
+
+.lp_hero h2 {
+  color: #609511;
+}
+
+hr {
+  border-top: 1px solid black;
+  margin: 10px;
+}
+
+.k_bestillinger {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.month_menu {
+  width: 96%;
+  height: auto;
+}
+
+.second_section_lp,
+.third_section_lp {
+  text-align: center;
 }
 
 @media only screen and (min-width: 700px) {
