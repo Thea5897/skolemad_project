@@ -22,7 +22,7 @@
         <div id="menuknap">☰</div>
       </div>
 
-      <ul id="menu" class="hidden">
+      <ul class="menu hidden">
         <li><a href="index.html">Profil</a></li>
         <li><a href="#second_section">Menu</a></li>
         <li>
@@ -30,12 +30,12 @@
             ><img src="img/Logo.png" alt="logo" id="logo_menu"
           /></a>
         </li>
-        <li><a href="#third_section">Bestil</a></li>
-        <li><a href="kompetencer.html">Log ud</a></li>
+        <li><a href="#0">Bestil</a></li>
+        <li><a href="#0">Log ud</a></li>
       </ul>
     </nav>
-    <h2>Velkommen tilbage Stefan!</h2>
-    <section class="section_one">
+    <!-- <h2>Velkommen tilbage Stefan!</h2> -->
+    <!-- <section class="section_one">
       <h4>Madskolen SMAG!</h4>
       <p>
         Madskolen på Kalvebod Fælled Skole er et produktionskøkken hvor , der
@@ -51,7 +51,7 @@
     <section class="section_two">
       <h3>Kommende bestillinger</h3>
       <h4>Du har bestilt følgende</h4>
-    </section>
+    </section> -->
 
     <main>
       <div class="lp_hero">
@@ -67,7 +67,7 @@
           skoledagen.
         </p>
       </div>
-      <section class="first_section">
+      <section class="first_section_lp">
         <h3>Kommende bestillinger</h3>
         <p>Du har bestilt følgende</p>
         <hr />
@@ -95,15 +95,33 @@
           <img src="img/april_menu.jpg" alt="April menu" class="month_menu" />
         </div>
         <p>Mikka</p>
-        <div class="bestil">April</div>
-        <div class="bestil">Maj</div>
-        <div class="bestil">Juni</div>
-        <hr />
-        <div class="k_bestillinger">
-          <h4>i alt</h4>
-          <p>1067,50 DKK</p>
+        <div id="bestil_bar">
+          <div class="april">
+            April
+            <button class="plusapril">+</button>
+          </div>
+          <div class="maj">
+            Maj
+            <button class="plusmaj">+</button>
+          </div>
+          <div class="juni">
+            Juni
+            <button class="plusjuni">+</button>
+          </div>
         </div>
-        <hr />
+        <div class="bestil_bar2">
+          <hr />
+          <div class="k_bestillinger">
+            <h4>i alt</h4>
+            <p>1067,50 DKK</p>
+          </div>
+          <hr />
+          <p>Vælg din foretrukne betalingsmetode</p>
+          <div id="payment_methods">
+            <button>Kort</button>
+            <button>Mobilepay</button>
+          </div>
+        </div>
       </section>
 
       <section class="third_section_lp">
@@ -134,5 +152,6 @@
     </section>
 
     <script src="burger.js"></script>
+    <script src="landingp.js"></script>
   </body>
 </html>
