@@ -123,8 +123,8 @@ img {
 footer {
   position: static;
   background-color: var(--primary-dark-color);
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   margin-top: 2rem;
 }
 footer p {
@@ -143,6 +143,11 @@ footer div {
 
 .section_two h3 {
   color: var(--primary-dark-color);
+}
+
+.section_1 h2 {
+  color: #609511;
+  text-align: center;
 }
 
 .section_1,
@@ -193,6 +198,7 @@ button:hover {
 
 a {
   font-family: Righteous;
+  cursor: pointer;
 }
 
 a:hover {
@@ -253,6 +259,9 @@ body > nav:nth-child(1) {
 
 #logo_menu {
   display: none;
+  border: 2px solid white;
+  border-radius: 18px;
+  cursor: pointer;
 }
 
 #logo_burger {
@@ -442,6 +451,16 @@ hr {
   .lp_hero p {
     margin-inline: 6rem;
   }
+
+  .section_1 {
+    margin-top: 6rem;
+  }
+
+  .section_1,
+  .section_2,
+  .section_3 {
+    margin-inline: 5rem;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -473,10 +492,29 @@ hr {
     width: 75%;
   }
 
+  .section_1,
+  .section_2,
+  .section_3 {
+    margin-inline: 12rem;
+  }
+
   .bestil_bar2 {
     margin-inline: 8rem;
   }
   .lp_hero p {
     margin-inline: 16rem;
+  }
+
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .section_1,
+  .section_2,
+  .section_3 {
+    margin-inline: 22rem;
   }
 }
